@@ -15,14 +15,21 @@ h2 {
 h3 {
   font-weight: 500;
 }
-.article_header,
-.article_content {
+/* aloe */
+.article__header,
+.article__content {
   max-width: 1000rem;
   margin: 0 auto;
   padding: 64rem 48rem ;
 }
-.blacklink {
+.backlink {
   color: #5c5c66;
   padding: 3rem 6rem;
   font-weight: 500;
+}
+.backlink::before {
+   content: "← ";
+}
+img {
+  width: 1000rem;
 }
